@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	background-image: url("picture1.jpg");
+	background-size: cover;
+}
+
+#header {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 70;
+	margin-left: 1.5%;
+}
+
+#navbar {
+	font-family: Segoe UI Light;
+	list-style-type: none; 
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	box-shadow: 5px 5px 8px #191c19;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+#navbar li {
+	float: left;
+}
+
+#navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navbar li a:hover {
+	background-color: #111;
+}
+
+#active {
+	background-color: #428762;
+} 
+
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+#left-col, #right-col {
+	float: left;
+	width: 45%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+#row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+#above-panel {
+	opacity: 0.85;
+	border-radius: 10px;
+	background-color: white;
+	padding: 3% 5%;
+	font-family: Segoe UI Light;
+	color: black;
+	box-shadow: 7px 7px 8px #191c19;
+}
+
+hr {
+	margin: 2% 2.5%;
+}
+
+#below-panel {
+	opacity: 0.85;
+	border-radius: 10px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	padding: 1% 2%;
+	background-color: white;
+	font-family: Segoe UI Light;
+	color: black;
+	box-shadow: 7px 7px 8px #191c19;
+}
+

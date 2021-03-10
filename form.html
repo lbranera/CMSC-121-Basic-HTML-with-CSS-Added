@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div id="content">
+		<div id="header"> Welcome to my website</div>
+
+		<ul id="navbar">
+			<li><a href="heading.html">Heading</a></li>
+			<li><a href="paragraph.html">Paragraph</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a id="active" href="form.html">Form</a></li>
+		</ul>
+		
+		<h1 align="center">This is a Form</h1>
+
+		<form>
+		<div id="questions"><b>Name<b><div>
+		<input type="text" size=50 name="textbox1"><br>
+		<div id="questions"><b>Password</b><div>
+		<input type="password" size=50 name="textbox1">
+
+		<br><br>
+		<div id="questions">This is a radio button question<div>
+		<input type="radio" name="question1" value="choice1">Choice 1<br>
+		<input type="radio" name="question1" value="choice2">Choice 2<br>
+		<input type="radio" name="question1" value="choice3">Choice 3<br>
+
+		<br>
+		<div id="questions">This is a checkbox question</div>
+		<input type="checkbox" name="question2" value="choice1">Choice 1<br>
+		<input type="checkbox" name="question2" value="choice2">Choice 2<br>
+		<input type="checkbox" name="question2" value="choice3">Choice 3<br>
+		
+		<br>
+		<div id="questions">This is a select</div>
+		<select>
+			<option value="option1">Option 1</option>
+			<option value="option2">Option 2</option>
+			<option value="option3">Option 3</option>
+		</select>
+
+		<br><br>
+		Comments<br>
+		<textarea name="comments" cols=50 rows=5>Enter additional comments here...
+		</textarea><br><br>
+
+		<input type="reset" name="reset" value="Reset">
+		<input type="submit" name="submit" value="Submit">
+		</form>
+	</div>
+
+</body>
+</html>
